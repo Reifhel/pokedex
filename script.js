@@ -1,4 +1,5 @@
 var formulario = document.querySelector('form');
+var botaoShiny = document.getElementById('botao-shiny');
 
 formulario.addEventListener('submit', function(e){
     // impedindo a pagina de se auto recarregar ao submit
