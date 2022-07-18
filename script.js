@@ -59,6 +59,7 @@ formulario.addEventListener('submit', function(e){
                 html = err;
             }
             resposta.innerHTML = html;
+            imagem.innerHTML = "<img src='" + "./img/error.png" + "'><img src='"
         })
 
 })
